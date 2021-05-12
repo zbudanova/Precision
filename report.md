@@ -1,4 +1,4 @@
-# Отчёт о тестировании Money Transfer
+# Отчёт о тестировании Precision
 
 ## Краткое описание
 
@@ -7,7 +7,7 @@
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* issues 
+* issues #1
 
 ## Описание процесса тестирования
 
@@ -18,9 +18,13 @@
 
 В качестве тестовых данных использовались данные:
 
-`int pay = 2_000_000_000;
-int transfer = 500_000_000;
-int total = pay + transfer;`
+`public class Main {
+  public static void main(String[] args) {
+    double regularBonus = 0.3;
+    double specialBonus = 0.6;
+    double totalBonus = regularBonus + specialBonus;
+    System.out.println(totalBonus);
+  }`
 
 
 Тестирование производилось в следующем окружении:

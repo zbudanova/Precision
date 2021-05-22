@@ -29,5 +29,5 @@
 
 Тестирование производилось в следующем окружении:
 * Windows 10 Version 20H2
-* 11 Java
+* 11 Java 11.0.9
 * IntelliJ IDEA 2021.1 (Community Edition)
